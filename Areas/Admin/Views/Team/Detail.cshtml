@@ -1,0 +1,10 @@
+﻿@model Team
+<div class="card" style="width: 18rem;">
+  <img src="~/assets/img/@Model.İmageUrl" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">@Model.PersonName</h5>
+    <p class="card-text">@Model.Position</p>
+    <a asp-controller="Team" asp-action="Index" class="btn btn-primary">Back</a>
+  </div>
+</div>
+

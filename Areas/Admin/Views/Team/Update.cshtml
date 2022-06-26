@@ -1,0 +1,28 @@
+﻿@model Team
+<div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Basic form elements</h4>
+                    <p class="card-description"> Basic form elements </p>
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                      <div class="form-group">
+                        <label asp-for="PersonName">Name</label>
+                        <input  class="form-control"  asp-for="PersonName" placeholder="Name" value="@Model.PersonName">
+                      </div>
+                       <div class="form-group">
+                        <label asp-for="Position">Position</label>
+                        <input  class="form-control"  asp-for="Position" placeholder="Name" value="@Model.Position">
+                      </div>
+
+                      <div class="mb-3">
+                          <label asp-for="TeamPhoto" class="form-label">Multiple files input example</label>
+                          <input class="form-control" asp-for="TeamPhoto" multiple>
+                        </div>
+                      <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                      <button class="btn btn-dark">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
