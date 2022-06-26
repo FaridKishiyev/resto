@@ -1,0 +1,20 @@
+#about{
+    padding: 100px 0px;
+    .image-left{
+        height: 100%;
+    }
+    .card-col{
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .card{
+        text-align: center;
+    }
+    .card-body{
+        a{
+            text-decoration: none;
+            color: #F34949;
+        }
+    }
+}

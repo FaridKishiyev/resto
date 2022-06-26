@@ -1,0 +1,49 @@
+#specialties{
+    
+   .specialties-main{
+       margin-bottom: 80px;
+   }
+    .specialties-head{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .col-left{
+        padding: 30px 0px;
+        padding-right: 200px ;
+    }
+    .col-head{
+        display: flex;
+        align-items: center;
+        span{
+            margin-left:20px;
+            display: inline-block;
+            width: 200px;
+            height: 2.5px;
+            background-color: #7C7C7D;
+        }
+    }
+    .col-content{
+        margin-left: 70px;
+        h1:first-child{
+            color: #F34949;
+        }
+        p{
+            color: #343a40;
+        }
+        span{
+            margin: 20px 0px;
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        a{
+            display: block;
+            width: max-content;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #F34949;
+            border-radius: 50px;
+            color: whitesmoke;
+        }
+    }
+}

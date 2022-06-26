@@ -1,0 +1,45 @@
+#page-intro{
+    .col-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-1{
+        h1{
+            font-size: 50px;
+        }
+    }
+    .content-2{
+        display: flex;
+        a:first-child{
+            padding: 10px 20px;
+            background-color: #F34949;
+            border-radius: 50px;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        a:last-child{
+            text-decoration: none;
+            color: black;
+            margin-left: 20px;
+            padding: 10px 20px;
+        }
+    }
+    .content-3{
+        display: flex;
+        padding-right: 50px;
+        .icon-area-1,.icon-area-2,.icon-area-3{
+            text-align: center;
+            padding: 20px;
+        }
+        i{
+            font-size: 30px;
+        }
+        .vline{
+            width: 2px;
+            height: 100px;
+            background-color: #DEE2E6;
+            display: block;
+        }
+    }
+}

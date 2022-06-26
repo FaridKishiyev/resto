@@ -1,0 +1,25 @@
+#team{
+    .team-head{
+        text-align: center;
+    }
+    .shef{
+        width: 350px;
+    }
+    col-team{
+        padding: 30px;
+    }
+    .team-one{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .team-desc{
+        text-align: center;
+        padding: 10px 50px;
+        z-index: 1000;
+        position: absolute;
+        bottom: 20px;
+        background-color: white;
+        width: 300px;
+    }
+}

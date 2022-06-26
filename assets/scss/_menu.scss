@@ -1,0 +1,35 @@
+#specialties-menu{
+    padding: 100px 0px;
+    .head{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .menu-one{
+        padding: 15px 0px;
+        display: flex;
+        border-bottom: 1px dashed grey;
+        .menu-left{
+            display: flex;
+            align-items: center;
+        }
+        img{
+            height: 100px;
+            border-radius: 50%;
+        }
+        .menu-name{
+            margin: 0px 20px;
+
+        }
+        .price{
+            margin-top: 10px;
+            margin-left: 50px;
+            font-size: 30px;
+        }
+    }
+    .menu-area{
+        h1{
+            text-align: center;
+            margin: 20px 0px;
+        }
+    }
+}
